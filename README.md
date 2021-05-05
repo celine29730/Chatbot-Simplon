@@ -29,7 +29,7 @@ Nous avons évoqué la plupart des User Stories dès le lancement du projet afin
 Ces US englobent plusieurs tâches qui seront traitées par l’équipe de développeurs. Certaines tâches sont axées sur la construction de l’IA, d’autres sur l’aspect Front/interface, des épics généraux à la demande du client. Le tableau est présent sur le fichier Excel Scrum.
 
 User Stories | Type | Estimation | Priorité
-:- |:-: |:-: | -:
+:- |:-: |:-: |:-:
 En tant qu'utilisateur je veux un ChatBot qui puisse répondre, automatiquement via des méthodes d'intelligence artificielle, à ces questions. | Intelligence Artificielle | 30 | 1 
 En tant qu'utilisateur je veux des informations utiles sur la formation Simplon.| Général | 7 | 2 
 En tant qu'utilisateur je veux une page web contenant le ChatBot. | Front/Interface | 2 | 3 
