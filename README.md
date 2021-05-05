@@ -12,9 +12,11 @@ Un rapport SCRUM qui reprend la présentation de l’équipe (scrum master, prod
 
 ## Identification des participants
 __Product Owner__ : Pereg H.
+
 Le Product Owner (PO) est un chef de projet en mode agile. Il est en charge de satisfaire les besoins des clients en menant à bien la livraison d’un produit de qualité. Il sert d’interface entre l’équipe technique, l’équipe marketing et les clients. Au sein de son groupe de travail, il est le premier responsable de la conception du produit.
 
 __Scrum Master__ : Jérémy LJ.
+
 Avec l’équipe de développeurs et le Product Owner, il s’occupe de la gestion de produit. Membre de l’équipe, le Scrum Master n’a pas vocation à la diriger, mais à l’aider à être pluridisciplinaire et auto-organisée. Avec son soutien et son appui, l’équipe va constamment s’améliorer. Pour ce faire, le Scrum Master fait office de porte-parole entre son groupe de travail et le monde externe, la préservant ainsi des éléments incommodants qui pourraient réduire sa concentration et nuire à son fonctionnement.
 
 __Equipe de Développeurs__ : Guillaume V., Céline G., Pereg H., Jérémy LJ.
@@ -36,6 +38,9 @@ En tant qu'utilisateur je veux pouvoir préciser si je suis futur apprenant ou p
 En tant qu'utilisateur je veux garder l'historique de la conversation. | Front/Interface | 1 | 6
 En tant que développeur je veux convaincre l'utilisateur en fonction de ses choix à postuler en tant que nouvel étudiant ou partenaire. | Front/Interface | 2 | 7
 En tant qu'utilisateur je veux pouvoir choisir ma langue. | Intelligence Artificielle/Front | 5 | 8
+
+## Sprint-Planning 1
+
 
 
 
