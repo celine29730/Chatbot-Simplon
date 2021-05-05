@@ -28,18 +28,37 @@ Nous avons évoqué la plupart des User Stories dès le lancement du projet afin
 
 Ces US englobent plusieurs tâches qui seront traitées par l’équipe de développeurs. Certaines tâches sont axées sur la construction de l’IA, d’autres sur l’aspect Front/interface, des épics généraux à la demande du client. Le tableau est présent sur le fichier Excel Scrum.
 
+
 User Stories | Type | Estimation | Priorité
 :- |:-: |:-: |:-:
-En tant qu'utilisateur je veux un ChatBot qui puisse répondre, automatiquement via des méthodes d'intelligence artificielle, à ces questions. | Intelligence Artificielle | 30 | 1 
-En tant qu'utilisateur je veux des informations utiles sur la formation Simplon.| Général | 7 | 2 
-En tant qu'utilisateur je veux une page web contenant le ChatBot. | Front/Interface | 2 | 3 
-En tant qu'utilisateur je veux un ChatBot incorporé dans une fenêtre. | Front/Interface | 2 | 4 
-En tant qu'utilisateur je veux pouvoir préciser si je suis futur apprenant ou partenaire. | Général | 5 | 5 
-En tant qu'utilisateur je veux garder l'historique de la conversation. | Front/Interface | 1 | 6 
-En tant que développeur je veux convaincre l'utilisateur en fonction de ses choix à postuler en tant que nouvel étudiant ou partenaire. | Général | 2 | 7 
-En tant qu'utilisateur je veux pouvoir choisir ma langue. | Intelligence Artificielle/Front | 5 | 8 
+Je veux un ChatBot qui puisse répondre, automatiquement via des méthodes d'intelligence artificielle, à ces questions. | Intelligence Artificielle | 30 | 1 
+Je veux des informations utiles sur la formation Simplon.| Général | 7 | 2 
+Je veux une page web contenant le ChatBot. | Front/Interface | 2 | 3 
+Je veux un ChatBot incorporé dans une fenêtre. | Front/Interface | 2 | 4 
+Je veux pouvoir préciser si je suis futur apprenant ou partenaire. | Général | 1 | 5 
+Je veux garder l'historique de la conversation. | Front/Interface | 1 | 6 
+Je veux convaincre l'utilisateur en fonction de ses choix à postuler en tant que nouvel étudiant ou partenaire. | Général | 2 | 7 
+Je veux pouvoir choisir ma langue. | Intelligence Artificielle/Front | 5 | 8 
 
-## Sprint-Planning 1
+## Sprint Planning 1
+Pour ce premier sprint, nous avons retenu les US suivant : 
+
+User Stories | Estimation | Progression
+:- |:-: |:-:
+Je veux un ChatBot qui puisse répondre, automatiquement via des méthodes d'intelligence artificielle, à ces questions. | 30 | En cours
+Je veux des informations utiles sur la formation Simplon.| 7 | Terminé
+Je veux une page web contenant le ChatBot. | 2 | Terminé
+Je veux un ChatBot incorporé dans une fenêtre. | 2 | Terminé
+Je veux pouvoir préciser si je suis futur apprenant ou partenaire. | 1 | Terminé
+
+La première US a été réalisé avec une première solution *DialogFlow* (plus de détail dans le rapport Technique). Plus simple à mettre en oeuvre, l'estimation pour mettre en place cette technologie était d'un score de 5. Toutefois, la solution TF-JS est toujours en cours de développement. L'objectif de la dernière US a été atteint pour DialogFlow.
+
+Les US mettant en place la page Web et le ChatBot Messenger ont été réalisés rapidement pour les deux solutions de ChatBot (TF-JS et DialogFlow).
+
+Les informations utiles sur la formation Simplon constituait notre base de données et a été construite et mis en place en fin de semaine. Davantage de données ont été rajoutées au fur et à mesure.
+
+
+
 
 
 
