@@ -36,7 +36,7 @@ En tant qu'utilisateur je veux une page web contenant le ChatBot. | Front/Interf
 En tant qu'utilisateur je veux un ChatBot incorporé dans une fenêtre. | Front/Interface | 2 | 4 
 En tant qu'utilisateur je veux pouvoir préciser si je suis futur apprenant ou partenaire. | Général | 5 | 5 
 En tant qu'utilisateur je veux garder l'historique de la conversation. | Front/Interface | 1 | 6 
-En tant que développeur je veux convaincre l'utilisateur en fonction de ses choix à postuler en tant que nouvel étudiant ou partenaire. | Front/Interface | 2 | 7 
+En tant que développeur je veux convaincre l'utilisateur en fonction de ses choix à postuler en tant que nouvel étudiant ou partenaire. | Général | 2 | 7 
 En tant qu'utilisateur je veux pouvoir choisir ma langue. | Intelligence Artificielle/Front | 5 | 8 
 
 ## Sprint-Planning 1
