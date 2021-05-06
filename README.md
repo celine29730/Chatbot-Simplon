@@ -129,7 +129,10 @@ __CR du Jeudi__ 06/05/21 :
 * Pereg rassemble le tout.
 * L’intégration du modèle au Front est prévue avec Guillaume et Jérémy.
 
+## Trello
+Voici le lien du Trello : https://trello.com/b/MCf2iVqU/projet-chatbot
 
+![Trello](Ressources/trello.png)
 
 
 
