@@ -60,6 +60,11 @@ Les informations utiles sur la formation Simplon constituait notre base de donn√
 ## Burndown Chart Sprint 1
 Nous avons r√©parti les US afin de remplir l'objectif de la semaine.
 
+![BurndownChart1](Ressources/Burndown_chart_sprint1.png)
+
+## CR Sprint 1
+
+
 
 
 
