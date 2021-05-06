@@ -64,6 +64,31 @@ Nous avons réparti les US afin de remplir l'objectif de la semaine.
 
 ## CR Sprint 1
 
+__CR du Mardi__ 27/04/21 : 
+* Le Scrum Master a réalisé le Trello et définit les US. L’équipe a estimé chaque US au poker planning.
+* Documentation de toute l’équipe et réflexion sur la récolte des données (FaQ Simplon).
+* Le PO a suggéré de tester DialogFlow en attendant de pouvoir poser les questions au client Mercredi.
+
+__CR du Mercredi__ 28/04/21 : 
+* Jérémy : Compte-Rendu et reconstruction du Trello pour qu’il correspond plus aux normes Agiles
+* Guillaume et Pereg : Documentation sur DialogFlow et premiers tests en ligne.
+* Céline a continué à fournir le Dataset en questions/réponse.
+
+__CR du Jeudi__ 29/04/21 :
+* Jérémy a développé la page Web et l’intégration de la fenêtre ChatBot.
+* Céline et Guillaume ont réorganisé le Dataset (Questions/Réponses Apprenants/Partenaires) avec des réponses plus « humaines ».
+* Pereg et Guillaume ont amélioré DialogFlow avec les données qui ont été nouvellement intégré au Dataset.
+* __Réponses du Client__ : Il veut une IA sous Tensorflow-JS. DialogFlow étant pratiquement terminé, il sera développé et étoffé le lendemain avant qu’on passe sur l’IA exigé par le client.
+
+__CR du Vendredi__ 30/04/21 : 
+* Jérémy et Pereg ont intégré DialogFlow sur le Front et fonctionne.
+* Documentation de l’équipe sur TF-JS.
+* Guillaume et Céline ont remanié le Dataset pour les préparer au modèle IA.
+
+__CR du Lundi__ 03/05/21 : 
+* Pereg a construit les API qui seront utilisés pour faire le lien entre l’interface, le modèle IA et la Base de données.
+* Céline et Guillaume ont effectué le Préprocessing des données et la construction du modèle IA.
+* Jérémy a préparé l’intégration du ChatBot TF-JS, d’autres améliorations seront à faire.
 
 
 
