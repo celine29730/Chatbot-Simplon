@@ -86,9 +86,26 @@ __CR du Vendredi__ 30/04/21 :
 * Guillaume et Céline ont remanié le Dataset pour les préparer au modèle IA.
 
 __CR du Lundi__ 03/05/21 : 
-* Pereg a construit les API qui seront utilisés pour faire le lien entre l’interface, le modèle IA et la Base de données.
+* Pereg a construit les API qui seront utilisées pour faire le lien entre l’interface, le modèle IA et la Base de données.
 * Céline et Guillaume ont effectué le Préprocessing des données et la construction du modèle IA.
 * Jérémy a préparé l’intégration du ChatBot TF-JS, d’autres améliorations seront à faire.
+
+
+## Sprint Planning 2
+La plupart des objectifs ont été atteint durant la première semaine. Nous avons poursuivi nos effort sur le développement du modèle IA avec Tensorflow-JS.
+Voici les US que nous devons traité en cette deuxième semaine :
+
+User Stories | Estimation | Progression
+:- |:-: |:-:
+Je veux un ChatBot qui puisse répondre, automatiquement via des méthodes d'intelligence artificielle, à ces questions. | 15 | En cours
+Je veux pouvoir préciser si je suis futur apprenant ou partenaire.| 5 | En cours
+Je veux garder l'historique de la conversation.| 1 | Terminé
+Je veux convaincre l'utilisateur en fonction de ses choix à postuler en tant que nouvel étudiant ou partenaire. | 2 | En cours
+Je veux pouvoir choisir ma langue (FR/EN). | 5 | Abandon
+
+La partie construction de l'IA TF-JS demande beaucoup d'effort. Des difficultés sont présentes sur la réalisation d'un modèle viable, et de son intégration au Front JS. Nous avons décidé d'abandonné la US de pouvoir choisir la langue pour communiquer avec le ChatBot.
+
+## Burndown Chart Sprint 2 (Progression du Jeudi 06/05/21)
 
 
 
