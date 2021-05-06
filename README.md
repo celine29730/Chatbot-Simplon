@@ -107,6 +107,31 @@ La partie construction de l'IA TF-JS demande beaucoup d'effort. Des difficultés
 
 ## Burndown Chart Sprint 2 (Progression du Jeudi 06/05/21)
 
+![BurndownChart2](Ressources/Burndown_chart_sprint2.png)
+
+## CR Sprint 2
+
+__CR du Mardi__ 04/05/21 :
+* Organisation du Sprint 2
+* Pereg a amélioré les entrées et sorties des API.
+* Difficulté au niveau du modèle IA créé par Céline et Guillaume. Ils prévoient une data-augmentation afin d’améliorer les performances du prochain modèle.
+
+__CR du Mercredi__ 05/05/21 : 
+* Pereg a essayé de créer un modèle de son côté et donne de meilleurs résultats.
+* Céline et Guillaume ont amélioré les tags des données et ont réécrit certaines Questions.
+* Jérémy se documente sur l’intégration du modèle sur le script Javascript. Test du code.
+
+__CR du Jeudi__ 06/05/21 :
+* Céline et Guillaume ont relancé le modèle plusieurs fois, mais ne présentait pas de résultat suffisant.
+* Pereg et Jérémy ont réfléchi à des solutions de secours et ont demandé des informations auprès des autres équipes pour l’intégration du modèle TF-JS côté Front.
+* Rédaction du présent rapport Scrum
+* Un nouveau modèle est en cours et est déjà plus satisfaisant. Céline et Guillaume vont faire l’évaluation.
+* Pereg rassemble le tout.
+* L’intégration du modèle au Front est prévue avec Guillaume et Jérémy.
+
+
+
+
 
 
 
