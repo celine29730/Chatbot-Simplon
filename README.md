@@ -57,6 +57,9 @@ Les US mettant en place la page Web et le ChatBot Messenger ont été réalisés
 
 Les informations utiles sur la formation Simplon constituait notre base de données et a été construite et mis en place en fin de semaine. Davantage de données ont été rajoutées au fur et à mesure.
 
+## Burndown Chart Sprint 1
+Nous avons réparti les US afin de remplir l'objectif de la semaine.
+
 
 
 
