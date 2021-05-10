@@ -22,10 +22,10 @@ L’engouement pour les ChatBots vient de sa démocratisation croissante au sein
 Pour répondre à la problématique, à savoir la création d’un ChatBot traitant les questions les plus récurrentes sur la formation Simplon Data IA de l’école Microsoft, le choix s’est tourné vers l’utilisation de Tensorflow JS, par l’intermédiaire de modèles Tensorflow codés en Python et  exécutés dans un navigateur. Cette solution était un point de modalité demandé pour ce projet.
 Toutefois, nous avons aussi réalisé un ChatBot sous DialogFlow, une IA conversationnelle qui s’appuie sur les technologies de Deep Learning qui alimentent l’Assistant Google. C’est une solution simple et rapide d’intégration de ChatBot qui peut être intégré au Front sous forme de fenêtre Messenger. Sa conception est détaillée plus tard dans ce présent rapport.
 
+![Chatbot](Ressources/ChatBot_presentation.png)
+
 ### Choix pour la partie Web
 Afin de présenter les deux types de ChatBot confectionnés, une page Web unique a été réalisée en guise de « maquette ». Deux fichiers HTML ont été réalisés (base.html et index.html) avec un fichier CSS pour la mise en forme. Enfin, la fenêtre du ChatBot sous TF-JS a été développée sous JavaScript (main.js).
-
-![Chatbot](Ressources/ChatBot_presentation.png)
 
 Pour le ChatBot DialogFlow, une intégration d’un script dans le fichier HTML généré depuis la plateforme a été réalisée.
 
