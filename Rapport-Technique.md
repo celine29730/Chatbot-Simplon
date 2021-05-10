@@ -23,20 +23,20 @@ Pour répondre à la problématique, à savoir la création d’un ChatBot trait
 
 Toutefois, nous avons aussi réalisé un ChatBot sous DialogFlow, une IA conversationnelle qui s’appuie sur les technologies de Deep Learning qui alimentent l’Assistant Google. C’est une solution simple et rapide d’intégration de ChatBot qui peut être intégré au Front sous forme de fenêtre Messenger. Sa conception est détaillée plus tard dans ce présent rapport.
 
-### Choix pour la partie Web
-Afin de présenter les deux types de ChatBot confectionnés, une page Web unique a été réalisée en guise de « maquette ». Deux fichiers HTML ont été réalisés (base.html et index.html) avec un fichier CSS pour la mise en forme. Enfin, la fenêtre du ChatBot sous TF-JS a été développée sous JavaScript (main.js).
-
 ### Choix du modèle
 ## La base de données
 ## Traitement de la question de l’utilisateur (les approches NLP utilisées)
 ## Entraînement du modèle 
 ## Création du site web et de la fenêtre du ChatBot
+Afin de présenter les deux types de ChatBot confectionnés, une page Web unique a été réalisée en guise de « maquette ». Deux fichiers HTML ont été réalisés (*base.html* et *index.html*) avec un fichier *style.css* pour la mise en forme. Enfin, la fenêtre du ChatBot sous TF-JS a été développée sous JavaScript (*main.js*).
 
 ![Chatbot](Ressources/Web_presentation.png)
 
-*A Gauche le ChatBot TF-JS, à Droite le ChatBot DialogFlow.*
-
 ## Intégration du code du ChatBot dans le site web
+Pour le ChatBot TF-JS, plusieurs fonctions ont d'abord été construites pour l'ouverture de la fenêtre et son animation. Un *chat-input* permet à l'utilisateur de rentrer son message et à l'envoyer avec la touche *Enter* ou en cliquant sur l'icone (*#chat-submit*). Une fois ce message envoyé, une fonction (*generate_message*) retourne le message du Bot 1s après. Le message de l'utilisateur est traité via la fonction *messageBot* qui retourne un message depuis la prédiction et la requête en base de données.
+
+![Chatbot](Ressources/Script_TFJS.png)
+
 Pour le ChatBot DialogFlow, une intégration d’un script dans le fichier HTML généré depuis la plateforme a été réalisée.
 
 ![Script DialogFlow](Ressources/Script_dialogflow.png)
