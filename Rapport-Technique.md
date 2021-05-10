@@ -32,7 +32,7 @@ Afin de présenter les deux types de ChatBot confectionnés, une page Web unique
 ## Entraînement du modèle 
 ## Création du site web et de la fenêtre du ChatBot
 
-![Chatbot](Ressources/ChatBot_presentation.png)
+![Chatbot](Ressources/Web_presentation.png)
 
 *A Gauche le ChatBot TF-JS, à Droite le ChatBot DialogFlow.*
 
