@@ -24,8 +24,12 @@ Toutefois, nous avons aussi réalisé un ChatBot sous DialogFlow, une IA convers
 
 ### Choix pour la partie Web
 Afin de présenter les deux types de ChatBot confectionnés, une page Web unique a été réalisée en guise de « maquette ». Deux fichiers HTML ont été réalisés (base.html et index.html) avec un fichier CSS pour la mise en forme. Enfin, la fenêtre du ChatBot sous TF-JS a été développée sous JavaScript (main.js).
+
+![Chatbot](Ressources/ChatBot_presentation.png)
+
 Pour le ChatBot DialogFlow, une intégration d’un script dans le fichier HTML généré depuis la plateforme a été réalisée.
-![Presentation](Ressources/ChatBot_presentation.png)
+
+![Script DialogFlow](Ressources/Script_dialogflow.png)
 
 ### Choix du modèle
 ## La base de données
