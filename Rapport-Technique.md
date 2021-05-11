@@ -25,7 +25,18 @@ Toutefois, nous avons aussi réalisé un ChatBot sous DialogFlow, une IA convers
 
 ### Choix du modèle
 ## La base de données
+Avant de construire notre modèle, nous devons créer notre ensemble de données et pour celà, nous avons construit notre corpus à partir d'un fichier json, fonctionnant comme un dictionnaire python. Le corpus comprend deux variables:
+
+**question**: ce sont les messages que l'utilisateur va envoyer au bot.
+
+**category**: La variable category correspondent aux balises utilisées pour catégoriser les entrées et les mapper à un type particulier de réponse.
+
+une fois que nous avons mappé une entrée sur une balise appropriée, nous pouvons sélectionner l'une des réponses à rendre à l'utilisateur.
+
 ## Traitement de la question de l’utilisateur (les approches NLP utilisées)
+
+
+
 ## Entraînement du modèle 
 ## Création du site web et de la fenêtre du ChatBot
 Afin de présenter les deux types de ChatBot confectionnés, une page Web unique a été réalisée en guise de « maquette ». Deux fichiers HTML ont été réalisés (*base.html* et *index.html*) avec un fichier *style.css* pour la mise en forme. Enfin, la fenêtre du ChatBot sous TF-JS a été développée sous JavaScript (*main.js*).
