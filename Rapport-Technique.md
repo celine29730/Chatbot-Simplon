@@ -61,9 +61,30 @@ Nous avons différents endpoints avec des usages différents:
 
 ## Traitement de la question de l’utilisateur (les approches NLP utilisées)
 
+Le preprocessing des données consiste à nettoyer notre corpus en effectuant plusieurs opérations:
 
+    * Supprimer les ponctuations.
+
+    * Gràce à la fonction Tokenizer on fragmente le corpus et on transforme les mots en vecteurs.
+
+    * La fonction ```pad_sequences``` est appliquée aux questions (variables explicatives) afin de les transformer en matrices.
+
+    On encode la variable category (target) afin qu'elle soit exploitée et confrontée aux questions pour le modèle.
+    
+La fonction ```pad_sequences``` transforme une liste (de longueur num_samples) de séquences (listes d'entiers) en un tableau 2D Numpy. 
+
+Le tokenizer de Tensorflow attribue un jeton unique à chaque mot distinct. Le remplissage est effectué pour obtenir toutes les données à la même longueur afin de les envoyer à une couche RNN. les variables cibles sont également codées en valeurs décimales.
 
 ## Entraînement du modèle 
+Après plusieurs essais de modèle en réseau de neurones convolutifs (CNN), notre choix de modèle s'est porté sur un modèle de réseau de neurones récurrent.
+
+Le réseau se compose d'une couche d'intégration qui est l'une des choses les plus puissantes dans le domaine du traitement du langage naturel. 
+les sorties de la couche d'enrobage sont l'entrée de la couche récurrente avec la porte lstm. Ensuite, la sortie est aplatie et une couche dense régulière est utilisée avec une fonction d'activation softmax.
+
+La fonction LSTM permet non seulement de gérer efficacement la mémoire à court et long terme, mais également de conserver ou supprimer des informations gardées en mémoire.
+
+
+
 ## Création du site web et de la fenêtre du ChatBot
 Afin de présenter les deux types de ChatBot confectionnés, une page Web unique a été réalisée en guise de « maquette ». Deux fichiers HTML ont été réalisés (*base.html* et *index.html*) avec un fichier *style.css* pour la mise en forme. Enfin, la fenêtre du ChatBot sous TF-JS a été développée sous JavaScript (*main.js*).
 
@@ -79,5 +100,9 @@ Pour le ChatBot DialogFlow, une intégration d’un script dans le fichier HTML 
 ![Script DialogFlow](Ressources/Script_dialogflow.png)
 
 ## Évaluation du modèle
+
+Nous obtenons pour notre modèle en RNN une accuracy de l'ordre de 94% sur nos données d'entraînement. Néanmoins, les résultats restent médiocres sur les données de test avec une accuracy en dessous de 50%. Le fait de jouer sur les hyperparamètres tels que le lr (learning rate) ou le nombre d'epochs, n'a engendré qu'une faible amélioration du modèle sur les données de test. 
+
 ## Problèmes non résolus et axes d’améliorations
+Le choix d'un modèle RNN semble le bon choix malgrè des résultats de performance qui ne sont pas satisfaisants sur les données de validation. Ces résultats peuvent s'expliquer par le fait que le corpus ne soit pas suffisamment alimenté en questions. En effet, la réduction du nombre de "tags" a permis une amélioration des performances du modèle mais le nombre de questions par tags semble insuffisant. Une augmentation du nombre de questions permettrait certainement une augmentation de l'accuracy sur les données de validation et d'eviter un risque de surapprentissage du modèle.
 
