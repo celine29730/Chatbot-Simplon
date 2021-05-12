@@ -25,13 +25,39 @@ Toutefois, nous avons aussi réalisé un ChatBot sous DialogFlow, une IA convers
 
 ### Choix du modèle
 ## La base de données
-Avant de construire notre modèle, nous devons créer notre ensemble de données et pour celà, nous avons construit notre corpus à partir d'un fichier json, fonctionnant comme un dictionnaire python. Le corpus comprend deux variables:
+Avant de construire notre modèle, nous devons créer notre ensemble de données et pour celà, nous avons construit notre corpus à partir d'un fichier json.
+Nous avons fais le choix d'une base MongoDB sur une VM en docker contenant une seule collection afin d'y stocker notre corpus. La base de données sera accessible à l'aide de l'API.
 
-**question**: ce sont les messages que l'utilisateur va envoyer au bot.
+Chaque item de la base de données contient plusieurs variables:
 
-**category**: La variable category correspondent aux balises utilisées pour catégoriser les entrées et les mapper à un type particulier de réponse.
+- **tag**: La variable tag correspondent à des catégories uniques qui seront prédites par le modèle. Elle sert à faire le lien entre le modèle et les questions/réponses.
 
-une fois que nous avons mappé une entrée sur une balise appropriée, nous pouvons sélectionner l'une des réponses à rendre à l'utilisateur.
+- **questions**: Ce sont les phrases qui vont servent à entrainer le modèle. Elles imitent des questions d'utilisateurs.
+
+- **reponses**: Ce sont les réponses que le chatbot va répondre à l'utilisateur quand le tag de ces questions sera prédit.
+
+- **etudiant**: Cette variable est un booléen qui sert à savoir si ce tag est pour les etudiants.
+
+- **partenaire** Cette variable est un booléen qui sert à savoir si ce tag est pour les partenaires.
+
+![BDD](Ressources/bdd.png)
+
+## API
+Afin d'accéder à nos données, aussi bien pour l'entrainement du modèle que pour obtenir les réponses à envoyer à l'utilisateur, il nous faut un accès simple et rapide.
+
+Nous avons donc fait le choix d'utiliser FastAPI afin d'obtenir une API REST accessible à distance avec l'IP de la VM.
+
+Nous avons différents endpoints avec des usages différents:
+
+- **/reponses**: Cet endpoint permet d'obtenir une réponse aléatoire (si la base en contient plusieurs) pour un tag ainsi que etudiant/partenaire donné.
+
+- **/questions**: Permet d'obtenir l'ensemble des données d'apprentissage avec les phrases et les tags.
+
+- **/add_question**: Cet endpoint permet d'ajouter une question à la base pour un tag donné.
+
+- **/predict**: Permet, à partir d'une phrase en entrée de sortir une réponse prédite par le modèle et appelée depuis la base de données.
+
+![API](Ressources/api_rest.png)
 
 ## Traitement de la question de l’utilisateur (les approches NLP utilisées)
 
