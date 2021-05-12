@@ -63,13 +63,13 @@ Nous avons différents endpoints avec des usages différents:
 
 Le preprocessing des données consiste à nettoyer notre corpus en effectuant plusieurs opérations:
 
-    * Supprimer les ponctuations.
+* Supprimer les ponctuations.
 
-    * Gràce à la fonction Tokenizer on fragmente le corpus et on transforme les mots en vecteurs.
+* Gràce à la fonction Tokenizer on fragmente le corpus et on transforme les mots en vecteurs.
 
-    * La fonction ```pad_sequences``` est appliquée aux questions (variables explicatives) afin de les transformer en matrices.
+* La fonction ```pad_sequences``` est appliquée aux questions (variables explicatives) afin de les transformer en matrices.
 
-    On encode la variable category (target) afin qu'elle soit exploitée et confrontée aux questions pour le modèle.
+On encode la variable category (target) afin qu'elle soit exploitée et confrontée aux questions pour le modèle.
     
 La fonction ```pad_sequences``` transforme une liste (de longueur num_samples) de séquences (listes d'entiers) en un tableau 2D Numpy. 
 
@@ -105,4 +105,3 @@ Nous obtenons pour notre modèle en RNN une accuracy de l'ordre de 94% sur nos d
 
 ## Problèmes non résolus et axes d’améliorations
 Le choix d'un modèle RNN semble le bon choix malgrè des résultats de performance qui ne sont pas satisfaisants sur les données de validation. Ces résultats peuvent s'expliquer par le fait que le corpus ne soit pas suffisamment alimenté en questions. En effet, la réduction du nombre de "tags" a permis une amélioration des performances du modèle mais le nombre de questions par tags semble insuffisant. Une augmentation du nombre de questions permettrait certainement une augmentation de l'accuracy sur les données de validation et d'eviter un risque de surapprentissage du modèle.
-
