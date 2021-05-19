@@ -1,7 +1,7 @@
 # ChatBot pour l’école IA Microsoft Brest Rapport Scrum
 #### Céline, Pereg, Guillaume, Jérémy
 ![Presentation](Ressources/scrum_agile.png)
-<br>
+
 ## Contexte du projet
 Un ChatBot (to chat + bot) est un robot conversationnel qui permet de répondre automatiquement, via une messagerie instantanée, aux requêtes/demandes d'un client (un être humain).
 
@@ -9,6 +9,7 @@ L'objectif phare du projet est de créer un ChatBot. Dans ce cas de figure, les 
 
 ## Modalités d'évaluation
 Un rapport SCRUM qui reprend la présentation de l’équipe (scrum master, product ower…), les user stories priorisées, les backlogs sprint, les burndown charts, l’Impediment backlog, un lien vers le tableau de bord (Trello…), et tous les CR des cérémonials en annexe.
+
 
 ## Identification des participants
 __Product Owner__ : Pereg H.
@@ -27,7 +28,6 @@ __Equipe de Développeurs__ : Guillaume V., Céline G., Pereg H., Jérémy LJ.
 Nous avons évoqué la plupart des User Stories dès le lancement du projet afin de bien caractériser les objectifs à remplir et prioriser les tâches. Après construction du tableau (Trello), le Product Backlog a été formé.
 
 Ces US englobent plusieurs tâches qui seront traitées par l’équipe de développeurs. Certaines tâches sont axées sur la construction de l’IA, d’autres sur l’aspect Front/interface, des épics généraux à la demande du client. Le tableau est présent sur le fichier Excel Scrum.
-
 
 User Stories | Type | Estimation | Priorité
 :- |:-: |:-: |:-:

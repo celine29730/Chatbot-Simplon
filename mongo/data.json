@@ -1,0 +1,334 @@
+[
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "presentation",
+        "reponses": [
+            "Simplon n’est pas la première formation de ce type, ni la seule. Plusieurs autres formations existaient dejà en France avant l’apparition de Simplon.co en 2013, comme la Web@cademie, R2K, 3WAcademie ou encore Cefim et bien d’autres. Vous pouvez nous envoyer un message via le lien suivant : https://simplon.co/contact.html"
+        ],
+        "questions": [
+            "Première formation",
+            "Première de ce type",
+            "Simplon.co est la première et unique formation en son genre ",
+            "Première du genre",
+            "Seule en son genre",
+            "Unique",
+            "Quel genre d'école est-ce ?",
+            "Qu'est-ce que l'école Microsoft-IA By Simplon ?",
+            "Que proposez-vous ?",
+            "Quelles sont les valeurs de l'école ?",
+            "Quand a été créé l'école ?",
+            "Comment vous contacter ?",
+            "Comment vous envoyer un message ?",
+            "Quel est votre numéro de téléphone ?",
+            "Comment avoir de meilleures réponses à mes questions ?",
+            "école"
+        ]
+    },
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "salutations",
+        "reponses": [
+            "Bonjour ! Que puis-je faire pour vous ?",
+            "Bonjour ! Comment puis-je vous aider ?"
+        ],
+        "questions": [
+            "Salut",
+            "Bonjour",
+            "Il y a quelqu'un ?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "bjr"
+        ]
+    },
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "howareyou",
+        "reponses": [
+            "Bien, merci ! Que puis-je faire pour vous ?",
+            "Très bien ! J'espère que vous aussi... Comment puis-je vous aider ?"
+        ],
+        "questions": [
+            "ça va ?",
+            "La forme ?",
+            "Quoi de neuf ?",
+            "Salut, ça va ?",
+            "Comment allez-vous ?"
+        ]
+    },
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "goodbye",
+        "reponses": [
+            "Au revoir !",
+            "Bonne journée !",
+            "A bientôt !"
+        ],
+        "questions": [
+            "Bye",
+            "A plus",
+            "Ciao",
+            "Au revoir",
+            "A bientôt",
+            "A plus tard"
+        ]
+    },
+    {
+        "partenaire": 0,
+        "etudiant": 1,
+        "tag": "tarifs",
+        "reponses": [
+            "Les formations Simplon sont entièrement gratuites"
+        ],
+        "questions": [
+            "Prix des formations",
+            "Tarifs de la formation",
+            "Combien ça coute",
+            "Prix",
+            "Tarifs",
+            "Es-ce gratuit",
+            "Combien coûte la formation ?",
+            "Quel est le prix de la formation ?",
+            "Combien ça coûte ?",
+            "Comment peut-on financer sa formation ?",
+            "Est-ce gratuit ?",
+            "Est-ce que c'est cher ?"
+        ]
+    },
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "cible",
+        "reponses": [
+            "La formation est tournee vers les personnes en reconversion et les seniors, les publics refugies ou primo-arrivants, les personnes en situation de handicap, les allocataires de minimas sociaux et les publics eloignes du numerique ou de l’emploi."
+        ],
+        "questions": [
+            "Vers qui la formation est-elle tournée ? ",
+            " Le public cible de la formation ? ",
+            "reconversion professionelle ",
+            "les femmes dans le numérique ",
+            "Quel genre d'école est-ce ?",
+            "Qu'est-ce que l'école Microsoft-IA By Simplon ?",
+            "Que proposez-vous ?",
+            "Qui peut candidater ?",
+            "Qui peut s'inscrire",
+            "Comment se passent les sélections",
+            "Comment se passent les admissions ?",
+            "A qui sont réservés les formations",
+            "Possible de s'inscrire en étant demandeur d'emploi",
+            "Je suis en reconversion",
+            "Quels sont les critères pour accéder à une formation? ",
+            "Je possède un titre de séjour",
+            "pôle emploi",
+            "je suis demandeur d'emploi",
+            " grande école du numérique",
+            "Est ce qu'il faut un diplome pour entrer dans une formation? ",
+            "Quel niveau d'étude faut-il pour être admis ?",
+            "Quels sont les prérequis ?",
+            "Que faut-il pour être admis ?",
+            "Je suis actuellement en CDI, puis-je m'inscrire ?",
+            "Puis-je m'inscrire alors que je travaille ?",
+            "Qui peut postuler ?"
+        ]
+    },
+    {
+        "partenaire": 0,
+        "etudiant": 1,
+        "tag": "programme",
+        "reponses": [
+            "Le contenu pédagogique est élaboré par des experts IA et développeurs Microsoft en partenariat avec Simplon, autour de 5 champs de compétences : \n - La préparation et le traitement des données,  \n - Les API cognitives, \n - Le développement IA,\n - L’interfaçage et la production, \n - Les « soft skills »."
+        ],
+        "questions": [
+            "Quel est le contenu pédagogique ?",
+            "Quel est le programme ?",
+            "Que va-t-on apprendre ?",
+            "Que fait-on en cours ?",
+            "quel est le format des cours? comment sont donné les cours?",
+            "pedagogie",
+            "Quel genre de pédagogie est utilisée?",
+            "Quelle est la pédagogie",
+            "présentiel",
+            "distanciel",
+            "pedagogie active",
+            "quel est le format des cours? comment sont donné les cours?"
+        ]
+    },
+    {
+        "partenaire": 0,
+        "etudiant": 1,
+        "tag": "entretiens",
+        "reponses": [
+            "De la curiosité, de la créativité, une bonne expression à l’oral et à l’écrit, une représentation claire du métier… et bien sûr, l’envie de s’engager dans une formation intense !"
+        ],
+        "questions": [
+            "Comment se passent les entretiens ?",
+            "Comment sont départagées les candidatures ?",
+            "Qui sont les meilleurs candidats ?",
+            "Qui a le plus de chances d'être admis ?",
+            "Quel est le profil des candidats ?",
+            "Les profils recherchés?",
+            "Ce que nous recherchons?"
+        ]
+    },
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "metier",
+        "reponses": [
+            "des metiers vises (developpeur, data analyste, technicien IA, etc.)"
+        ],
+        "questions": [
+            "Quels sont les métiers visés par les formations ?  ",
+            "les différents métiers de la formartion? ",
+            "Quels sont les métiers qui sont préparés ? ",
+            "Les opportunités d'emploi avec une formation ?",
+            "developpeur",
+            "technicien",
+            "intelligence artificielle",
+            "data",
+            "taux d'embauche",
+            "trouver du travail après Simplon",
+            "CDI",
+            "CDD",
+            "se faire embaucher",
+            "ia",
+            "intelligence artificielle",
+            "Métiers en fin de formations",
+            "métiers",
+            "le métier de développeur ",
+            "data science",
+            "Quel est la profession de développeur IA? ",
+            "Machine Learning",
+            "métier",
+            "Quel est le rôle du développeur.se Data IA ?",
+            "data science",
+            "data analyste",
+            "Augmentation à l'avenir",
+            "Quelle sera l'augmentation du nombre de data scientist à l'avenir? "
+        ]
+    },
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "technologie",
+        "reponses": [
+            "des technologies (C, PHP, Ruby, Java,…)"
+        ],
+        "questions": [
+            "Quelles technologies sont exploitées? ",
+            "Quelles technologiques sont utilisées? ",
+            "Les différentes technologies",
+            "Java",
+            "Python",
+            "Web",
+            "Les langages qui seront vus dans la formation ?",
+            "technologies",
+            "formation web",
+            "formation data"
+        ]
+    },
+    {
+        "partenaire": 0,
+        "etudiant": 1,
+        "tag": "partenaire",
+        "reponses": [
+            "Simplon.co explore en partenariat avec des entreprises et d’autres organismes de formation des referentiels de formation autour des technologies Mainframe, FTTH, fab manager"
+        ],
+        "questions": [
+            "partenariat",
+            "entreprises partenaires",
+            "entreprises d'alternance",
+            "ou se passe l'alternance",
+            "lieux de l'alternance",
+            "La formation travaille-t-elle en partenariat avec des entreprises? ",
+            "Quels sont les actionnaires principaux? ",
+            "Quoi sont les principaux actionnaires? ",
+            "Quels sont les principaux actionnaires des actionnaires? ",
+            "Quels sont les actionnaires Main? "
+        ]
+    },
+    {
+        "partenaire": 0,
+        "etudiant": 1,
+        "tag": "renumeration",
+        "reponses": [
+            "3\/4 du SMIC en moyenne, les apprenants ont egalement pu être remuneres via des embauches, leurs \ndroits au chômage ou au RSA maintenus, ou encore indemnises au titre \nd’un statut de « stagiaire de la formation professionnelle »"
+        ],
+        "questions": [
+            "Quels sont les revenus des étudiants lors de la formation? ",
+            "Quelle est la rémunération des apprenants pendant la formation? ",
+            "Quel est le salaire des étudiants lors de la formation? ",
+            "Quelle est la rémunération des étudiants lors de la formation? ",
+            "rémuneration",
+            "salaire",
+            "aide financière",
+            "droits au chommage"
+        ]
+    },
+    {
+        "partenaire": 1,
+        "etudiant": 1,
+        "tag": "duree",
+        "reponses": [
+            "La duree des formations varie entre 3 mois et 3 ans."
+        ],
+        "questions": [
+            "Combien de temps dure la formation",
+            "durée",
+            "Temps que ça prend",
+            "Combien d'années",
+            "Combien de mois",
+            "Quelle est la durée de la formation?"
+        ]
+    },
+    {
+        "partenaire": 0,
+        "etudiant": 1,
+        "tag": "caracteristiques",
+        "reponses": [
+            "C'est la motivation, l’appetence, la capacite à travailler en equipe, la predisposition au metier numerique vise par la formation et la compatibilite avec le modèle pedagogique (autonomie, pedagogies actives, mode projet, peer-learning,…) ainsi qu’à l’organisation de Simplon.co (pair programming, travail collaboratif) que se decide l’admission"
+        ],
+        "questions": [
+            "caracteristiques",
+            "Quelles sont les particularités d'un apprenant de simplon?",
+            "appetence",
+            "travailler en equipe",
+            "predisposition au metier numerique",
+            "autonomie"
+        ]
+    },
+    {
+        "partenaire": 0,
+        "etudiant": 1,
+        "tag": "evaluation",
+        "reponses": [
+            "Certification professionnelle Microsoft (DP100) passée au terme de la période de formation intensive, La réalisation d'un chef d'œuvre : projet de l'apprenant, attestant de la maîtrise de l'ensemble des compétences visées, une soutenance devant un jury de professionnels."
+        ],
+        "questions": [
+            "Quelles sont les certifications passées",
+            "Diplômes obtenus",
+            "Quels dipomes obtiens ont ?",
+            "certifications",
+            "diplomes",
+            "Quelles sont les conditions à remplir pour obtenir le diplôme ?",
+            "Comment se passent les examens ?",
+            "Y'a t'il des examens ?",
+            "Comment est-on évalué ?",
+            "Est-ce qu'il y a des contrôles ?",
+            "Quel diplôme obtient-on ?",
+            "La formation est-elle certifiante ?",
+            "La formation est-elle diplômante ?",
+            " Quel est le niveau d'étude en sortie de la formation ?",
+            "Est-ce qu'on obtient une licence ?",
+            "Les titres sont-ils reconnus ?",
+            "Les compétences sont-elles reconnues ?",
+            "Les titres sont-ils inscrits au RNCP ?",
+            " Quelle est la valeur du diplôme ?",
+            "Quelle est la valeur des titres obtenus ?"
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+version: "3.0"
+
+services:
+  fastapi:
+    container_name: fastapi
+    restart: unless-stopped
+    ports:
+      - "5000:80"
+    build:
+      context: ./fastapi
+
+  mongodb:
+    container_name: fastapi
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+    - 27017:27017
+    volumes: 
+      - ./mongo/data:/data/db/
+      - ./mongo/data.json:/data.json
+
+    # mongoimport -d chatbot -c data --file data.json --jsonArray
+
+  front:
+    container_name: front_js
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    build:
+      context: ./front_tf
+
+  front:
+    container_name: front_df
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    build:
+      context: ./front_df
